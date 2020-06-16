@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://preproductosmvp.sharepoint.com/sites/ListasPC/Lists/SPFx/AllItems.aspx",
+      "fieldCustomizers": {
+        "Type": {
+          "id": "d2947cfe-0669-451e-a684-0273c938b07a",
+          "properties": {
+            "Texto": "Valor"
+          }
+        }
+      }
+    },
+    "field": {
+      "pageUrl": "https://preproductosmvp.sharepoint.com/sites/ListasPC/Lists/SPFx/AllItems.aspx",
+      "fieldCustomizers": {
+        "Type": {
+          "id": "d2947cfe-0669-451e-a684-0273c938b07a",
+          "properties": {
+            "Texto": "Valor"
+          }
+        }
+      }
+    }
+  }
+}
